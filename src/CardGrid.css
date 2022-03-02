@@ -6,10 +6,20 @@
     background-color: #fff;
     border-radius: 15px;
 }
-.card-group  .card-grid .imgBlock {
-text-align: center;
-padding-top: 30px;
+.card-group  .card-grid .card-body {
+background-color: #fff;
 }
+
+    .card-group  .card-grid .card-body{
+        margin-top: 20px;
+        text-transform: capitalize;
+        align-items: center;
+        text-align: center;
+         }
+.card-group  .card-grid .imgBlock {
+    text-align: center;
+    padding-top: 30px;
+    }
 .card-group  .card-grid .imgBlock::before{
     height: 180px;
     content: "";
