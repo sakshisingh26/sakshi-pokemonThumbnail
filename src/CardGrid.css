@@ -1,0 +1,103 @@
+.card-group {
+    justify-content: center;
+    width: calc(20% - 30px);
+    margin: 0px 15px 30px 15px;
+    box-shadow: -3px 4px 3px 3px rgba(0,0,0,.3);
+    background-color: #fff;
+    border-radius: 15px;
+}
+.card-group  .card-grid .imgBlock {
+text-align: center;
+padding-top: 30px;
+}
+.card-group  .card-grid .imgBlock::before{
+    height: 180px;
+    content: "";
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    border-radius: 50%;
+    left: 0px;
+top: 0px;
+background-color: #fff697;
+transform: scale(1.0);
+}
+.card-group  .card-grid .imgBlock{
+    position: relative;
+    
+}
+.card-group  .card-grid{
+    overflow: hidden;
+}
+.card-group  .card-grid .imgBlock .card-img{
+    border-radius: 50%;
+    width: 150px;height: 150px;
+    position: relative;
+    z-index: 2;
+}
+
+.card-grid, .card {
+    padding: 5px 5px !important;
+    height: auto !important;
+    justify-content: center;
+    /* margin: 1rem; */
+
+}
+
+.card-body {
+    background-color: #F6F5F5;
+    margin: 0;
+}
+
+.card-img,
+.card-img-top,
+.card-img-bottom {
+    height: 10rem;
+    width: auto;
+    align-content: flex-start;
+}
+.card-text {
+    height: fit-content;
+    margin-bottom: 2rem;
+}
+
+.btn, .btn-primary {
+    position: absolute;
+    bottom: 5px;
+    color: #263238;
+    overflow: auto;
+}
+
+@media screen and (max-width:1399px) {
+    .card-group {
+ 
+        width: calc(25% - 30px);
+        
+    }   
+}
+
+
+@media screen and (max-width:991px) {
+    .card-group {
+ 
+        width: calc(33.33% - 20px);
+        margin: 0px 10px 20px 10px;
+        
+    }   
+}
+@media screen and (max-width:650px) {
+    .card-group {
+ 
+        width: calc(50% - 20px);
+        margin: 0px 10px 20px 10px;
+        
+    }   
+}
+@media screen and (max-width:450px) {
+    .card-group {
+ 
+        width: calc(100% - 20px);
+        margin: 0px 10px 20px 10px;
+        
+    }   
+}
